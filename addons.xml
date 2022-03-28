@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.program.shareflixmod" name="ShareFlix Mod" version="1.0" provider-name="Maze Monkey">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">ShareFlix Mod</summary>
+        <description lang="en">Modified version of ShareFlix for Kodi created by ChunkyzV</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.dropbox.com/s/jsn37teu4gxty5y/plugin.program.shareflixmod.zip?dl=1</source>
+        <news>
+				1.0 Initial Release
+        </news>
+        <assets>
+            <icon>https://is4-ssl.mzstatic.com/image/thumb/Purple118/v4/4e/2f/30/4e2f3008-050f-8b6f-18d8-c8fa5516de5b/source/512x512bb.jpg</icon>
+            <fanart>https://i.ytimg.com/vi/GYHK6_AYp1E/maxresdefault.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
