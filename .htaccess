@@ -1,2 +1,0 @@
-# Hide files of type .png, .zip, .jpg, .gif and .doc from listing
-IndexIgnore *.png *.jpg *.gif *.txt *.xml *.html *.md5
